@@ -1,0 +1,16 @@
+.atributos {
+  background-color: red;
+}
+
+.atributos input {
+  width: 50px;
+}
+
+.ataques {
+  display: flex;
+  flex-direction: column;
+}
+
+.ataques input {
+  width: 200px;
+}
