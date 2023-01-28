@@ -153,3 +153,43 @@ table #peso {
 .dindin .input-dind-1 {
   margin-right: 25px;
 }
+
+.pericias {
+  display: flex;
+  flex-direction: column;
+}
+
+.pericias-label {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pericias-total {
+  display: flex;
+  flex-direction: column;
+}
+
+.pericias input {
+  width: 25px;
+}
+
+.pericias-linhas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lin-principal label {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pericias .lin {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lin p, input[type="number"], input[list="atributos"] {
+  display: flex;
+  
+}
