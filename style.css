@@ -9,3 +9,30 @@
 .opcoes-ataques input {
   width: 75px;
 }
+
+.CA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  width: 400px;
+  height: 100px;
+}
+
+.CA .defense {
+  display: flex;
+  flex-direction: column;
+}
+
+.CA #Defesa {
+  height: 50px;
+  width: 50px;
+}
+
+.CA input[type="number"] {
+  width: 25px;
+}
+
+.CA input[list="atributos"] {
+  width: 35px;
+}
