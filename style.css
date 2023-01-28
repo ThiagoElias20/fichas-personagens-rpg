@@ -132,6 +132,24 @@
   background-color: yellow;
 }
 
+/* FIM do divindo as partes por div */
+
+.equipamento {
+  background-color: rgb(43, 255, 0);
+  width: fit-content;
+  text-align: center;
+}
+
 table #peso {
   width: 50px;
+}
+
+.dindin {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+.dindin .input-dind-1 {
+  margin-right: 25px;
 }
