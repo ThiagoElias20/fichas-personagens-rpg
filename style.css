@@ -10,14 +10,22 @@
   width: 75px;
 }
 
-.CA {
+.CAS {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border: solid;
   width: 400px;
   height: 100px;
 }
+
+.CA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .CA .defense {
   display: flex;
@@ -29,10 +37,31 @@
   width: 50px;
 }
 
+.penalidade input[type="number"] {
+  width: 25px;
+}
+
 .CA input[type="number"] {
   width: 25px;
 }
 
 .CA input[list="atributos"] {
   width: 35px;
+}
+
+.armadura-escudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.armadura-escudo input[type="text"] {
+  width: 100px;
+}
+
+.armadura-escudo table {
+  width: 200px;
+}
+
+#filera1 {
+  width: 500px;
 }
