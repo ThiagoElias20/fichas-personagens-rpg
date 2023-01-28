@@ -150,103 +150,229 @@
     </table>
   </div>
 
-  <div class="left-down">
-    <div class="CAS">
-      <div class="CA">
-        <div class="defense">
-          <label>Defesa</label>
-          <input type="text" id="Defesa" placeholder="Defesa"> 
-        </div>=
-        <div id="armor">10</div> +
-        <div>
-          <p>Mod de</p>
-          <input list="atributos" placeholder="ATRB">
-          <datalist id="atributos">
-            <option value="FOR">
-            <option value="DES">
-            <option value="CON">
-            <option value="INT">
-            <option value="SAB">
-            <option value="CAR">
-        </datalist>
-        </div> +
+
+  <div class="down">
+
+    <div class="left-down">
+      <div class="CAS">
+        <div class="CA">
+          <div class="defense">
+            <label>Defesa</label>
+            <input type="text" id="Defesa" placeholder="Defesa"> 
+          </div>=
+          <div id="armor">10</div> +
+          <div>
+            <p>Mod de</p>
+            <input list="atributos" placeholder="ATRB">
+            <datalist id="atributos">
+              <option value="FOR">
+              <option value="DES">
+              <option value="CON">
+              <option value="INT">
+              <option value="SAB">
+              <option value="CAR">
+          </datalist>
+          </div> +
+    
+          <div>0</div> + <div>0</div> +
+          <div>0</div> + <input type="number" placeholder="Outros" value="0">
+        </div>
   
-        <div>0</div> + <div>0</div> +
-        <div>0</div> + <input type="number" placeholder="Outros" value="0">
-      </div>
-
-      <div class="penalidade">
-         Penalidade
-        <input type="number" value="0">
-      </div>
-    </div>
-    
-    <div class="armadura-escudo">
-      <table border="1">
-        <tr>
-          <th>Armadura e Escudo</th>
-          <th>Defesa</th>
-          <th>Penalidade</th>
-        </tr>
-        <tr>
-          <td id="filera1">
-            <input type="text">
-          </td>
-          <td>
-            <input type="number">
-          </td>
-          <td>
-            <input type="number">
-          </td>
-        </tr>
-        <tr>
-          <td id="filera1">
-            <input type="text">
-          </td>
-          <td>
-            <input type="number">
-          </td>
-          <td>
-            <input type="number">
-          </td>
-        </tr>
-      </table>
-    </div>
-    
-    <div class="exp">
-      <label>PONTO DE EXPERIÊNCIA</label>
-      <input type="number">
-    </div>
-  </div>
-
-
-
-    <div class="proficiencias">
-      <label>Proficiências
-        <input type="text">
-      </label>
-    </div>
-
-      <div class="tamanho">
-        <label>Tamanho</label>
-        <input list="tamanhos" placeholder="Médio" id="lista-tamanho">
-          <datalist id="tamanhos">
-            <option value="Minúsculo">
-            <option value="Pequeno">
-            <option value="Médio">
-            <option value="Grande">
-            <option value="Enorme">
-            <option value="Colossal">
-        </datalist>
-        <div class="tamanho-valor">
-          <input type="number"> / <input type="number">
+        <div class="penalidade">
+           Penalidade
+          <input type="number" value="0">
         </div>
       </div>
-
-      <div class="deslocamento">
-        <label>Deslocamento</label>
-        <input type="text" class="input-deslocamento">
+      
+      <div class="armadura-escudo">
+        <table border="1">
+          <tr>
+            <th>Armadura e Escudo</th>
+            <th>Defesa</th>
+            <th>Penalidade</th>
+          </tr>
+          <tr>
+            <td id="filera1">
+              <input type="text">
+            </td>
+            <td>
+              <input type="number">
+            </td>
+            <td>
+              <input type="number">
+            </td>
+          </tr>
+          <tr>
+            <td id="filera1">
+              <input type="text">
+            </td>
+            <td>
+              <input type="number">
+            </td>
+            <td>
+              <input type="number">
+            </td>
+          </tr>
+        </table>
       </div>
+  
+      <div class="exp">
+        <label>PONTO DE EXPERIÊNCIA</label>
+        <input type="number">
+      </div>
+    </div>
+  
+  
+    <div class="right-down">
+     <div class="proficiencias">
+       <label>Proficiências
+         <input type="text">
+       </label>
+     </div>
+  
+       <div class="tamanho">
+         <label>Tamanho</label>
+         <input list="tamanhos" placeholder="Médio" id="lista-tamanho">
+           <datalist id="tamanhos">
+             <option value="Minúsculo">
+             <option value="Pequeno">
+             <option value="Médio">
+             <option value="Grande">
+             <option value="Enorme">
+             <option value="Colossal">
+         </datalist>
+         <div class="tamanho-valor">
+           <input type="number"> / <input type="number">
+         </div>
+       </div>
+  
+       <div class="deslocamento">
+         <label>Deslocamento</label>
+         <input type="text" class="input-deslocamento">
+       </div>
+   </div>
+  </div>
+
+  <div class="equipamento">
+    <label>Equipamento</label>
+    <table border="1">
+      <tr>
+        <th>Item</th>
+        <th>Peso</th>
+        <th>Item</th>
+        <th>Peso</th>
+      </tr>
+      <tr class="1">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="2">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="3">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="4">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="5">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="6">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="7">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="8">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+      <tr class="9">
+        <td>
+          <input type="text">
+        </td>
+        <td>
+          <input type="text" id="peso" value="0.00">
+        </td>
+      </tr>
+
+    </table>
+  </div>
 
 </body>
 </html>

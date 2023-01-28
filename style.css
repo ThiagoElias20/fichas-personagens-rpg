@@ -118,4 +118,20 @@
 
 .left-down {
   background-color: red;
+  width: fit-content;
+  margin-right: 30px;
+}
+
+.right-down {
+  background-color: aqua;
+  width: fit-content;
+}
+
+.down {
+  display: flex;
+  background-color: yellow;
+}
+
+table #peso {
+  width: 50px;
 }
