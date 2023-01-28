@@ -150,6 +150,7 @@
     </table>
   </div>
 
+  <div class="left-down">
     <div class="CAS">
       <div class="CA">
         <div class="defense">
@@ -179,7 +180,7 @@
         <input type="number" value="0">
       </div>
     </div>
-
+    
     <div class="armadura-escudo">
       <table border="1">
         <tr>
@@ -211,12 +212,41 @@
         </tr>
       </table>
     </div>
-
+    
     <div class="exp">
       <label>PONTO DE EXPERIÊNCIA</label>
       <input type="number">
     </div>
+  </div>
 
+
+
+    <div class="proficiencias">
+      <label>Proficiências
+        <input type="text">
+      </label>
+    </div>
+
+      <div class="tamanho">
+        <label>Tamanho</label>
+        <input list="tamanhos" placeholder="Médio" id="lista-tamanho">
+          <datalist id="tamanhos">
+            <option value="Minúsculo">
+            <option value="Pequeno">
+            <option value="Médio">
+            <option value="Grande">
+            <option value="Enorme">
+            <option value="Colossal">
+        </datalist>
+        <div class="tamanho-valor">
+          <input type="number"> / <input type="number">
+        </div>
+      </div>
+
+      <div class="deslocamento">
+        <label>Deslocamento</label>
+        <input type="text" class="input-deslocamento">
+      </div>
 
 </body>
 </html>

@@ -49,6 +49,10 @@
   width: 35px;
 }
 
+.CA input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
 .armadura-escudo {
   display: flex;
   flex-direction: column;
@@ -71,4 +75,47 @@
   width: 188px;
   display: flex;
   flex-direction: column;
+}
+
+.proficiencias {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 180px;
+  text-align: center;
+  border: solid;
+}
+
+.proficiencias input[type="text"] {
+  height: 120px;
+}
+
+.tamanho {
+  display: flex;
+  border: solid;
+  width: 221px;
+}
+
+.tamanho-valor input[type="number"] {
+  width: 25px;
+}
+
+.input-deslocamento {
+  width: 100px;
+}
+
+.deslocamento {
+  border: solid;
+  width: 204px;
+}
+
+#lista-tamanho {
+  width: 75px;
+}
+
+
+/* divindo as partes por div */
+
+.left-down {
+  background-color: red;
 }
