@@ -55,13 +55,20 @@
 }
 
 .armadura-escudo input[type="text"] {
-  width: 100px;
+  width: 175px;
+}
+
+.armadura-escudo input[type="number"] {
+  width: 75px;
 }
 
 .armadura-escudo table {
   width: 200px;
 }
 
-#filera1 {
-  width: 500px;
+.exp {
+  border: solid;
+  width: 188px;
+  display: flex;
+  flex-direction: column;
 }
