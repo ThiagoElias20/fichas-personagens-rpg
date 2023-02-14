@@ -46,10 +46,12 @@
 }
 
 /* FIM do personagem- jogador- raça- origem -classe e nível */
+/*Começo da Vida e mana*/
 
 .vida-mana {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 25px;
 }
 
 .vida {
@@ -109,12 +111,38 @@
   font-size: small;
 }
 
+/*Fim da Vida e mana*/
+/*Tabela de ataques*/
 
+.ataques {
+  border: solid;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.ataques table {
+  border-collapse: separate; 
+  border-spacing: 1em;
+}
+
+.ataques tr {
+  padding-bottom: 10em;
+}
+
+.ataques td {
+  border-bottom: 2px solid;
+}
+
+.ataques td input {
+  border: none;
+}
 
 
 .opcoes-ataques input {
   width: 75px;
 }
+
+/*Fim da Tabela de ataques*/
 
 .CAS {
   display: flex;
