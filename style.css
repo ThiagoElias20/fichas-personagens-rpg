@@ -1,6 +1,35 @@
-.atributos {
-  background-color: red;
+/* personagem- jogador- raça- origem -classe e nível */
+.nomes input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
 }
+
+.caract input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+}
+
+.caixa {
+  width: 75px;
+  height: 80px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.for {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 9px;
+}
+/* .atributos {
+   background-color: red; *
+} */
 
 .atributos input {
   width: 50px;
