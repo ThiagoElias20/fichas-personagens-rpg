@@ -25,9 +25,6 @@
   margin-top: 70px;
   margin-left: 11px;
 }
-/* .atributos {
-   background-color: red; *
-} */
 
 .atributos {
   display: flex;
@@ -46,6 +43,33 @@
 .atributos input {
   width: 50px;
   border-radius: 10px;
+}
+
+/* FIM do personagem- jogador- raça- origem -classe e nível */
+
+.vida-mana {
+  margin-top: 25px;
+}
+
+.vida {
+  display: flex;
+  height: 85px;
+  width: 300px;
+  background-color: red;
+}
+
+#maximos {
+  width: 85px;
+}
+
+#atuais {
+  width: 150px;
+}
+
+.maxim {
+  width: 85px;
+  height: 85px;
+  background-color: aqua;
 }
 
 .opcoes-ataques input {
