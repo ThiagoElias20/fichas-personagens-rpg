@@ -152,23 +152,46 @@
   border: solid;
   width: 400px;
   height: 100px;
+  border-radius: 10px;
 }
 
 
 .CA .defense {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
+
+
 .CA #Defesa {
-  height: 50px;
+  height: 30px;
   width: 50px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 5px;
+}
+
+#armor {
+  margin-top: 35px;
+  font-size: x-large;
+}
+
+.def-atrb {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .ca-zero {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  
 }
+
 
 
 .CA input[type="number"] {
@@ -181,6 +204,10 @@
 
 .CA input::-webkit-calendar-picker-indicator {
   display: none !important;
+}
+
+.symbol {
+  margin-top: 35px;
 }
 
 /*Fim da parte de CA/defesa*/
@@ -253,7 +280,6 @@
 }
 
 .left-down {
-  background-color: red;
   width: fit-content;
   margin-right: 30px;
 }
@@ -265,7 +291,6 @@
 
 .down {
   display: flex;
-  background-color: yellow;
 }
 
 /* FIM do divindo as partes por div */
