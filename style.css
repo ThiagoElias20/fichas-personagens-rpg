@@ -223,42 +223,62 @@
 }
 
 /*Fim da parte de CA/defesa*/
+/* Armadura-Escudo */
 
 .armadura-escudo {
   display: flex;
   flex-direction: column;
+  margin-top: 55px;
 }
 
 .armadura-escudo input[type="text"] {
   width: 175px;
+  border: none;
+  border-bottom: 2px solid;
 }
 
 .armadura-escudo input[type="number"] {
   width: 75px;
+  border: none;
+  border-bottom: 2px solid;
 }
 
 .armadura-escudo table {
+  height: 100px;
   width: 200px;
+  border: solid;
+  border-radius: 10px;
 }
 
-.exp {
-  border: solid;
-  width: 188px;
-  display: flex;
-  flex-direction: column;
+.armadura-escudo table tr {
+  font-size: small;
+}
+
+.armadura-escudo table td {
+  padding-right: 26px;
+  padding-left: 26px;
 }
 
 .proficiencias {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  width: 180px;
+  height: 255px;
+  width: 315px;
   text-align: center;
   border: solid;
+  border-radius: 10px;
+  font-size: small;
 }
 
-.proficiencias input[type="text"] {
-  height: 120px;
+.proficiencias label {
+  margin-top: 5px;
+}
+
+.proficiencias #textarea {
+  height: 227px;
+  width: 305px;
+  border: none;
+  text-align: center;
 }
 
 .tamanho {
@@ -297,7 +317,6 @@
 }
 
 .right-down {
-  background-color: aqua;
   width: fit-content;
 }
 
