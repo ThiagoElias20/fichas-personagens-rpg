@@ -332,6 +332,10 @@
   text-align: center;
 }
 
+.equipamento input {
+  width: 150px;
+}
+
 table #peso {
   width: 50px;
 }
@@ -346,15 +350,23 @@ table #peso {
   margin-right: 25px;
 }
 
+img {
+  width: 479px;
+  height: 184px;
+}
 
 .pericias-total {
   display: flex;
   flex-direction: column;
 }
 
-.pericias input {
+.tabel-pericia input {
   width: 40px;
 }
+
+.tabel-pericia {
+
+margin-bottom: 25px;}
 
 .container {
   display: flex;
