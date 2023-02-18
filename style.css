@@ -322,6 +322,7 @@
 
 .down {
   display: flex;
+  margin-bottom: 50px;
 }
 
 /* FIM do divindo as partes por div */
@@ -365,8 +366,8 @@ img {
 }
 
 .tabel-pericia {
-
-margin-bottom: 25px;}
+margin-bottom: 25px;
+}
 
 .container {
   display: flex;
@@ -377,4 +378,32 @@ margin-bottom: 25px;}
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.habil-mag {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid;
+  border-radius: 10px;
+}
+
+.habil-mag label {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: small;
+}
+
+.habil-mag div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.habil-mag input {
+  width: 350px;
+  border: none;
+  border-bottom: 2px solid;
+  background: none;
+  margin-bottom: 10px;
 }
