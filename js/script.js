@@ -232,3 +232,10 @@ function atrCar() {
     val.innerHTML = 10
   }
 }
+
+function atrb() {
+  let ca = document.getElementById('ca-zero')
+  console.log('teste')
+}
+
+//Atualmente trabalhando com atrb() e ca, datalist la no html, ainda para continuar.

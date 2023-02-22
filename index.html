@@ -241,17 +241,17 @@
                 <div class="def-atrb">
                   <label>
                     <p>Mod. de</p>
-                    <input list="atributos" placeholder="ATRB">
-                    <datalist id="atributos">
-                      <option value="FOR">
-                      <option value="DES">
+                    <input list="atributos" placeholder="ATRB" onclick="atrb()">
+                    <datalist id="atributos" onclick="atrb()">
+                      <option value="FOR" onclick="atrb()">
+                      <option value="DES" onclick="atrb()">
                       <option value="CON">
                       <option value="INT">
                       <option value="SAB">
                       <option value="CAR">
                   </datalist>
                   </label>
-                  <div class="ca-zero">0</div>
+                  <div id="ca-zero">0</div>
                 </div>
                 <div class="symbol">+</div>
                 <div class="ca-zero">
