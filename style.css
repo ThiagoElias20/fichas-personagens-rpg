@@ -340,6 +340,12 @@
 
 .equipamento input {
   width: 150px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.equipamento label {
+  font-size: small;
 }
 
 table #peso {
@@ -378,6 +384,7 @@ img {
 
 .tabel-pericia {
 margin-bottom: 25px;
+border: 1px solid;
 }
 
 .container {
