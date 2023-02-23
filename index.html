@@ -22,8 +22,8 @@
      <div class="caract">
      <input type="text" id="raça" placeholder="raça">
      <input type="text" id="origem" placeholder="origem">
-     <input type="text" id="classe e nível" placeholder="classe e nível">
-     <input type="number" class="nivel" id="nivel" placeholder="nivel">
+     <input type="text" id="classe" placeholder="classe">
+     <input type="number" class="nivel" id="nivel" placeholder="nível" onblur="niveis()">
      <input type="text" id="divindade" placeholder="divindade">
     </div>
     
@@ -383,7 +383,7 @@
 
 
     
-      <div class="pericias">
+       <div class="pericias">
       
       <img src="/img/tormenta20.png" alt="tormenta20">
 
@@ -399,15 +399,15 @@
         <tr class="pericias-acrobacia">
           <td>Acrobacia</td>
           <td><div class="peric-val">0</div></td>
-          <td><div class="peric-nivel">0</div></td>
+          <td><div class="peric-nivel" id="peric-nivel">0</div></td>
           <td><div>DES</div></td>
           <td><div>0</div></td>
           <td><input type="number"></td>
         </tr>
         <tr class="pericias-adestramento">
           <td>Adestramento</td>
-          <td><div>0</div></td>
-          <td><div>0</div></td>
+          <td><div class="peric-val">0</div></td>
+          <td><div class="peric-nivel" id="peric-nivel">0</div></td>
           <td><div>CAR</div></td>
           <td><div>0</div></td>
           <td><input type="number"></td>
@@ -782,7 +782,7 @@
         </div>
       </div>
     
-      </div> 
+      </div>
   
   </div>
 

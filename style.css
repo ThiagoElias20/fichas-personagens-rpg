@@ -1,4 +1,9 @@
 /* personagem- jogador- raça- origem -classe e nível */
+.nomes {
+  margin-left: 54px;
+  margin-bottom: 10px;
+}
+
 .nomes input{
   border-top: none;
   border-left: none;
@@ -20,7 +25,8 @@
 }
 
 .nivel {
-  width: 27px;
+  width: 28px;
+  text-align: center;
 }
 
 .caixa {

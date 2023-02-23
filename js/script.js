@@ -250,3 +250,12 @@ nivel.addEventListener('keyup', function() {
 
   console.log('test')
 })
+
+function niveis() {
+  let nivel = Number(document.getElementById('nivel').value);
+  let val_nivel = Number(nivel / 2)
+  let peric_nivel = document.querySelector('.peric-nivel')
+
+  peric_nivel.innerHTML = val_nivel
+}
+//Necessario consertar 1/2 niveis para que todos de uma vez mudem.
