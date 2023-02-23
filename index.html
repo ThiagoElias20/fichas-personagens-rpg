@@ -23,6 +23,7 @@
      <input type="text" id="raça" placeholder="raça">
      <input type="text" id="origem" placeholder="origem">
      <input type="text" id="classe e nível" placeholder="classe e nível">
+     <input type="number" class="nivel" id="nivel" placeholder="nivel">
      <input type="text" id="divindade" placeholder="divindade">
     </div>
     
@@ -241,10 +242,10 @@
                 <div class="def-atrb">
                   <label>
                     <p>Mod. de</p>
-                    <input list="atributos" placeholder="ATRB" onclick="atrb()">
-                    <datalist id="atributos" onclick="atrb()">
-                      <option value="FOR" onclick="atrb()">
-                      <option value="DES" onclick="atrb()">
+                    <input list="atributos" placeholder="ATRB">
+                    <datalist id="atributos">
+                      <option value="FOR">
+                      <option value="DES">
                       <option value="CON">
                       <option value="INT">
                       <option value="SAB">
@@ -382,7 +383,7 @@
 
 
     
-     <!-- <div class="pericias">
+      <div class="pericias">
       
       <img src="/img/tormenta20.png" alt="tormenta20">
 
@@ -397,8 +398,8 @@
         </tr>
         <tr class="pericias-acrobacia">
           <td>Acrobacia</td>
-          <td><div>0</div></td>
-          <td><div>0</div></td>
+          <td><div class="peric-val">0</div></td>
+          <td><div class="peric-nivel">0</div></td>
           <td><div>DES</div></td>
           <td><div>0</div></td>
           <td><input type="number"></td>
@@ -781,7 +782,7 @@
         </div>
       </div>
     
-      </div> -->
+      </div> 
   
   </div>
 

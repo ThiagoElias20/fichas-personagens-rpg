@@ -239,3 +239,14 @@ function atrb() {
 }
 
 //Atualmente trabalhando com atrb() e ca, datalist la no html, ainda para continuar.
+
+let nivel = document.getElementById('nivel');
+
+nivel.addEventListener('keyup', function() {
+  let caract = nivel.value.split('');
+  if (caract.length > 2) {
+    nivel.value = nivel.value.substring(0,2);   
+  }
+
+  console.log('test')
+})

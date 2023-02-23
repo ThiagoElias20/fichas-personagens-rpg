@@ -6,11 +6,21 @@
   border-bottom: solid;
 }
 
+.caract {
+  display: flex;
+  justify-content:  center;
+}
+
 .caract input{
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: solid;
+  margin-right: 5px;
+}
+
+.nivel {
+  width: 27px;
 }
 
 .caixa {
